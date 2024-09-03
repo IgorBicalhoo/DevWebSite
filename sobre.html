@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url(back.jpeg);
+            font-family: Arial, sans-serif;
+        }
+        header {
+            height: 22px;
+            align-items: flex-end;
+            display: flex;
+            justify-content: space-between;
+            padding-right: 20px;
+            background-color: rgb(34, 19, 248);
+            color: #fff;
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+            position: fixed;
+            top: 0;
+        }
+
+        header a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+            }
+
+        .content {
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 40px;
+            background-color: rgb(34, 19, 248);
+            color: #fff;
+            width: 80%;
+            padding: 20px;
+            margin: 80px 0;
+            text-align: center;
+        }
+        img {
+            width: 80%;
+            margin: 20px 0;
+        }
+        footer {
+            background-color: rgb(34, 19, 248);
+            color: #fff;
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+        }
+
+        header h1{
+           
+            margin:  auto;
+            margin-left: 3%;
+            
+        }
+
+        header a{
+  display: inline;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+}
+
+header a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width .3s;
+}
+
+header a:hover::after {
+  width: 100%;
+  transition: width .3s;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+     @media (max-width: 400px){
+            header h1{
+                margin: auto;
+                font-size: 20px ;
+            }
+
+        }
+        
+        
+        @media (min-width: 800px){
+            header h1{
+                margin-left:45%;
+            }
+      
+    </style>
+
+</head>
+<body>
+    <header>
+        
+        <h1>SOBRE NÓS</h1>
+        <a href="index.html">HOME</a>
+        <a href="contato.html">CONTATO</a>
+    </header>
+    <div class="content">
+        <p>Sem WI-FI NEM 4G é um grupo composto por alunos do primeiro período de computação da Unifagoc, onde buscamos aprimorar nossos conhecimentos na área da tecnologia em geral. <br> <br> Design do site: Igor Bicalho <br> <br> Desenvolvimento do site: Igor Bicalho, Murillo, Dhiogo Lucca. <br> <br> Criação de vídeos: João Victor, Gabriel Vital. <br> <br>Slide: Igor Bicalho <br> <br> Apresentação: Jesus Gabriel, Andrey.      </p>
+    </div>
+    
+    <footer>
+        SEM WI-FI NEM 4G © 2024
+    </footer>
+</body>
+</html>

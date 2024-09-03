@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(back.jpeg);
+            background-size: 700%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        
+        .header {
+            background-color: rgb(34, 19, 248);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+        }
+        .header .bottom {
+            position: relative;
+            bottom: 0;
+            right: 0;
+            padding: 10px;
+        }
+        .header .bottom a {
+            color: white;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+        .content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        iframe {
+            width: 100%;
+            height: auto;
+            max-width: 800px;
+            min-height: 450px;
+        }
+        
+    
+        button{
+            height: 30px;
+            background-color:white;
+            border: 0.3px solid rgb(34, 19, 248); ;
+         
+            color: rgb(34, 19, 248); 
+            border-radius: 10px;
+
+        }
+
+        
+        button:hover{
+            background-color:  rgb(34, 19, 248);
+            color: white;
+        }
+
+    
+        .footer {
+                
+            background-color: rgb(34, 19, 248);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+
+
+
+        @media (min-width: 768px) {
+            iframe{
+                width: 200%;
+                }
+
+                body{
+                    background-size: 300%;
+                }
+                }
+        
+         
+            
+
+
+            
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>DEV-WEB</h1>
+        <div class="bottom">
+            <a href="contato.html">CONTATO</a>
+            <a href="sobre.html">SOBRE</a>
+        </div>
+    </div>
+    <div class="content">
+        <h2>HTML</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FReycG6TLv0?si=9jNnF8Dvk-_S7k__" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h2>CSS</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_I8bUiB399o?si=33HyDWe9saCQvYVC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       <a href="https://www.canva.com/design/DAGCIt_gbNM/8PRhpQVodsCGTcrYc0Koxg/edit?utm_content=DAGCIt_gbNM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> <button style="margin: 50px;">Slide Dev-Web</button></a>
+    </div>
+    <div class="footer">
+        SEM WI-FI NEM 4G © 2024
+    </div>
+</body>
+</html>
